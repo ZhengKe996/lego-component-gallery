@@ -18,8 +18,8 @@ export type {
 
 import LText from "./components/LText";
 import LImage from "./components/LImage";
-
-const components = [LText, LImage];
+import LShape from "./components/LShape";
+const components = [LText, LImage, LShape];
 
 const install = (app: App) => {
   components.forEach((component) => {
@@ -27,7 +27,7 @@ const install = (app: App) => {
   });
 };
 
-export { LText, LImage, install };
+export { LText, LImage, LShape, install };
 
 export default {
   install,

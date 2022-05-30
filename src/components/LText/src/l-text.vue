@@ -9,7 +9,7 @@
   </component>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts" name="l-text">
 import useComponentCommon from "@/hooks/useComponentCommon";
 import {
   transformToComponentProps,

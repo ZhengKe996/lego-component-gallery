@@ -17,8 +17,9 @@ export type {
 } from "./defaultProps";
 
 import LText from "./components/LText";
+import LImage from "./components/LImage";
 
-const components = [LText];
+const components = [LText, LImage];
 
 const install = (app: App) => {
   components.forEach((component) => {
@@ -26,7 +27,8 @@ const install = (app: App) => {
   });
 };
 
-export { LText, install };
+export { LText, LImage, install };
+
 export default {
   install,
 };
